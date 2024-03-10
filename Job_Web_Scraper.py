@@ -461,4 +461,3 @@ def get_indeed_job_data(search_terms, country = 'Canada', page_limit = 15):
 
         
 get_indeed_job_data(['data analyst', 'data scientist', 'business intelligence', 'database administrator'], 'Canada', 5)
-#get_indeed_job_data(['database administrator'], 'Canada', 5)
