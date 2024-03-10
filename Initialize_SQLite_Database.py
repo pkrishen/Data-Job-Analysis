@@ -13,9 +13,12 @@ c.execute(""" CREATE TABLE Jobs(
     rating_provided text not null,
     rating real null,
     salary_provided text not null,
-    salary_text text null,
     weblink text not null,
-    date_recorded not null,
+    date_recorded not null, 
+    location_model text, 
+    jurisdiction text, 
+    city text, 
+    country text,
 
     CONSTRAINT PK_Jobs_id PRIMARY KEY (id)
 )
@@ -25,9 +28,10 @@ c.execute(""" CREATE TABLE Salaries(
     id text not null,
     salary_text text not null,
     salary_type text null,
-    min_yearly real null,
-    expected_yearly real null,
-    max_yearly real null,
+    salary_period text null,
+    floor real null,
+    expected real null,
+    ceiling real null,
 
     CONSTRAINT PK_Salaries_id PRIMARY KEY (id),
     CONSTRAINT FK_Salaries_id FOREIGN KEY (id) REFERENCES Jobs (id)
