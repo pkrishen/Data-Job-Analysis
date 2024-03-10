@@ -192,13 +192,13 @@ def append_single_webpage_of_job_info_to_dfs(job_list, job_df, job_id_dict, keyw
 
         try:
             if new_job is not None:
-                job_df = job_df.append(new_job, verify_integrity = True)
+                job_df = pd.concat([job_df, new_job], verify_integrity = True)
         except ValueError:
             pass
         
         try:
             if new_keyword is not None:    
-                keyword_df = keyword_df.append(new_keyword, verify_integrity = True)
+                keyword_df = pd.concat([keyword_df ,new_keyword], verify_integrity = True)
         except ValueError:
             pass
 
