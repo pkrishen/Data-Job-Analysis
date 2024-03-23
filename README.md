@@ -13,7 +13,11 @@ The purpose of this project was to create a web scraper that could pull and pars
 ### Goal
 The goal of this project was to collect, analyze and compare data related to different roles within the data field to gauge the market interests of those specific roles. Rather than relying on trying to find the data from different sources and gauging which ones are current or accurate, the data was scraped and parsed directly from a large scale job board - Indeed. Although this project was comparing a subset of jobs within the data field, this program can be modified to search for any other subset of interest in future use cases.
 
+### Detailed Description - Web Scraper
+The web scraping aspect of the project accepts inputs from the user with the pertinent ones being a list of jobs to search the job board for and the number of pages to search. For each role provided, the program will navigate to the Indeed webpage and search for that role. The entire html content of the webpage is extracted into Python and the html containers holding the data related to each job is parsed out as a list. This allows for each jobs features to be extracted programmatically using a series of functions that look for each specific data field. Once extracted and modified into the correct format, the data is collected for the number of pages requested by the user and then appended back into the SQLite tables for storage. This process is repeated for each search term identified at the start.  
 
+### Detailed Description - SQLite Storage
+The data collected from the webscraper is held in 3 SQLite tables - 
 
 The scraping and analysis was done using Python while the data extracted was stored in a local SQLite database file. The web scraper used Selenium with the Firefox browser to crawl through the pages and extract the raw data while Beautiful Soup was used to parse the extracted data. Pandas, numpy, sqlite3 and sqlalchemy were used to clean up the data and store it. Finally, seaborn and matplotlib were used to visualize the data in the data analysis section. 
 
