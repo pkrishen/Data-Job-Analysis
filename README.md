@@ -27,6 +27,7 @@ The information from the SQLite tables was pulled into a Jupyter notebook to ana
 ### Installation
 Download or close the repository. Clone script: git clone https://github.com/pkrishen/Data-Job-Analysis.git
 
+Project uses Python version 3.11.7 (download from ____)
 
 
 
