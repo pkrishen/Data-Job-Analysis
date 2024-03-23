@@ -19,7 +19,11 @@ The web scraping aspect of the project accepts inputs from the user with the per
 ### Detailed Description - SQLite Storage
 The data collected from the webscraper is held in 3 SQLite tables - Jobs, KeywordRef and Salaries. The jobs table has one row for each unique job with the unique features related to the job specifically. The KeywordRef table identifies which jobs were found with each keyword search term since it was possible for different search terms to load in the same job depending on the title and description of the role. Finally, the Salaries table holds more detailed salary information unique to each job but is separated out of the Jobs table to prevent cluttering of data. 
 
-The scraping and analysis was done using Python while the data extracted was stored in a local SQLite database file. The web scraper used Selenium with the Firefox browser to crawl through the pages and extract the raw data while Beautiful Soup was used to parse the extracted data. Pandas, numpy, sqlite3 and sqlalchemy were used to clean up the data and store it. Finally, seaborn and matplotlib were used to visualize the data in the data analysis section. 
+### Detailed Description - Data Analysis
+The information from the SQLite tables was pulled into a Jupyter notebook to analyze overall trends and patterns in the data. Analysis included comparisons between variables including keywords, location, salary, job counts and more. 
+
+The scraping and analysis was done using Python while the data extracted was stored in a local SQLite database file. The web scraper used Selenium with the Firefox browser to crawl through the pages and extract the raw data while Beautiful Soup was used to parse the extracted data. Pandas, numpy, sqlite3 and sqlalchemy were used to clean up the data and store it. Finally, seaborn and matplotlib were used to visualize the data in the data analysis section.
+
 
 ## Getting Started
 
