@@ -5,10 +5,6 @@ The purpose of this project was to create a web scraper that could pull and pars
 ## Table of Contents
 
 [Project Details](#project-details)
-  - [Goal](#goal)
-  - [Detailed Description - Web Scraper](#detailed-description---web-scraper)
-  - [Detailed Description - SQLite Storage](#detailed-description---sqlite-storage)
-  - [Detailed Description - Data Analysis](#detailed-description---data-analysis)
 
 [Getting Started](#getting-started)
 
@@ -28,7 +24,10 @@ The information from the SQLite tables was pulled into a Jupyter notebook to ana
 
 ## Getting Started
 
-The following libraries were used for this project.
+### Installation
+Download or close the repository. Clone script: git clone https://github.com/pkrishen/Data-Job-Analysis.git
+
+
 
 
 ## Other
