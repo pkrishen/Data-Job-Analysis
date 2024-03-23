@@ -7,8 +7,8 @@ The purpose of this project was to create a web scraper that could pull and pars
 - [Project Details](#project-details)
   - [Goal](#goal)
   - [Detailed Description - Web Scraper](#detailed-description---web-scraper)
-  - [Detailed Description - SQLite Storage](detailed-description---sqlite-storage)
-  - [Detailed Description - Data Analysis](detailed-description---data-analysis)
+  - [Detailed Description - SQLite Storage](#detailed-description---sqlite-storage)
+  - [Detailed Description - Data Analysis](#detailed-description---data-analysis)
 
 - [Getting Started](#getting-started)
 
