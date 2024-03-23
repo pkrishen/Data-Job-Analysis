@@ -14,3 +14,6 @@ The goal of this project was to collect, analyze and compare data related to dif
 
 The scraping and analysis was done using Python while the data extracted was stored in a local SQLite database file. The web scraper used Selenium with the Firefox browser to crawl through the pages and extract the raw data while Beautiful Soup was used to parse the extracted data. Pandas, numpy, sqlite3 and sqlalchemy were used to clean up the data and store it. Finally, seaborn and matplotlib were used to visualize the data in the data analysis section. 
 
+## Getting Started
+
+The following libraries were used for this project.
