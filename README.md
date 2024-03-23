@@ -5,6 +5,7 @@ The purpose of this project was to create a web scraper that could pull and pars
 ## Table of Contents
 
 [Project Overview](#project-overview)
+
 [Getting Started](#getting-started)
 
 ## Project Overview
