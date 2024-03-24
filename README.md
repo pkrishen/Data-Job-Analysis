@@ -23,11 +23,17 @@ The data collected from the webscraper is held in 3 SQLite tables - Jobs, Keywor
 The information from the SQLite tables was pulled into a Jupyter notebook to analyze overall trends and patterns in the data. Analysis included comparisons between different job features including keywords, location, salary, job counts and more. Overall, the analysis provides a good view of how the market is for the different roles and their related features. If a more current view of market conditions is required, the webscraper can collect the most current data and the analysis can be filtered to the more current datetime range required. 
 
 ## Getting Started
+The primary objective of this project was to demonstrate the capability of a webscraper to pull sufficient data to get a job market analysis of various roles through data analysis. It wasn't designed specifically for others to be able to pull their own datasets in current state. Having said that, it is still possible to do and, if desired, the steps to do so are outlined below.
 
 ### Installation
-Download or close the repository. Clone script: git clone https://github.com/pkrishen/Data-Job-Analysis.git
+Download or clone the repository: git clone https://github.com/pkrishen/Data-Job-Analysis.git
 
-Conda environment was used to build project. Attempted to convert to pip install but ran into a lot of issues in converting. To create a conda environment, install Miniconda (no pre-packages installed) or Anaconda (full version). 
+If you only require to view the data analysis itself, open the Job_Data_Analysis.ipynb file. It will open in a local web browser and you will be able to scroll through the results and commentary.
+
+Steps to run the webscrape to collect more data and modify the analysis are provided below:
+
+A conda environment was used to build the project. Conversion to pip install created many issues so better to use conda environment to run scripts. 
+To create a conda environment, install Miniconda (no pre-packages installed) or Anaconda (full version). 
 Links to install Miniconda (https://docs.anaconda.com/free/miniconda/index.html) or Anaconda (https://www.anaconda.com/download).
 
 In Anaconda prompt, install and activate the conda environment with the provided .yml file. Add path locations as necessary: 
@@ -35,7 +41,11 @@ conda env create -f webscrape_analysis_project.yml
 conda activate webscrape_analysis_project
 
 ###Usage
-To use the webscraper to pull more data, run the Job_Web_Scraper.py file from the terminal or an IDE. To search for different keywords than the default, open the .py file and update the list parameter in the last line as required. Save changes then run. 
+To use the webscraper to pull more data, run the Job_Web_Scraper.py file from the terminal or an IDE. To search for different keywords than the default, open the .py file and update the list parameter in the last line as required. The defaults are ['data analyst', 'data scientist', 'business intelligence', 'database administrator']. Save changes then run.
+
+If a clean copy of the data is preferred, delete the JobData.db file and run the Initialize_SQLite_Database.py file to generate empty tables. 
+
+
 
 
 ## Other
