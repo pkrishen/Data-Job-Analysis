@@ -27,7 +27,13 @@ The information from the SQLite tables was pulled into a Jupyter notebook to ana
 ### Installation
 Download or close the repository. Clone script: git clone https://github.com/pkrishen/Data-Job-Analysis.git
 
-Project uses Python version 3.11.7 (download from ____)
+Conda environment was used to build project. Attempted to convert to pip install but ran into a lot of issues in converting. To create a conda environment, install Miniconda (no pre-packages installed) or Anaconda (full version). 
+Links to install Miniconda (https://docs.anaconda.com/free/miniconda/index.html) or Anaconda (https://www.anaconda.com/download).
+
+In Anaconda prompt, install and activate the conda environment with the provided .yml file. Add path locations as necessary: 
+conda env create -f webscrape_analysis_project.yml
+conda activate webscrape_analysis_project
+
 
 
 
