@@ -43,7 +43,7 @@ In Anaconda prompt, install and activate the conda environment with the provided
 
 The webscraper uses Firefox for the webcrawling. You will need to install the Firefox driver for this to work. This project uses version 0.34.0. Installation found here: https://github.com/mozilla/geckodriver/releases
 
-###Usage
+### Usage
 To use the webscraper to pull more data, run the Job_Web_Scraper.py file from the terminal or an IDE. To search for different keywords than the default, open the .py file and update the list parameter in the last line as required. The defaults are ['data analyst', 'data scientist', 'business intelligence', 'database administrator']. Save changes then run.
 
 If a clean copy of the data is preferred, delete the JobData.db file and run the Initialize_SQLite_Database.py file to generate empty tables. 
