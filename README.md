@@ -32,9 +32,9 @@ The primary objective of this project was to demonstrate the capability of a web
 ### Installation
 Download or clone the repository: git clone https://github.com/pkrishen/Data-Job-Analysis.git
 
-If you only require to view the data analysis itself, open the Job_Data_Analysis.ipynb file. It will open in a local web browser and you will be able to scroll through the results and commentary.
+If you only require viewing the data analysis itself, open the Job_Data_Analysis.ipynb file. It will open in a local web browser and you will be able to scroll through the results and commentary.
 
-Steps to run the webscrape to collect more data and modify the analysis are provided below:
+Steps to run the webscraper to collect more data and modify the analysis are provided below:
 
 A conda environment was used to build the project. Conversion to pip install created many issues so it's ideal to use a conda environment to run the scripts. 
 To create a conda environment, install Miniconda (no pre-packages installed) or Anaconda (full version). 
@@ -52,11 +52,11 @@ To use the webscraper to pull more data, run the Job_Web_Scraper.py file from th
 
 If a clean copy of the data is preferred, delete the JobData.db file and run the Initialize_SQLite_Database.py file to generate empty tables. 
 
-To modify or review data analysis, use the Job_Data_Analysis.ipynb file. Ensure the kernel selected is the same as the conda enviornment created earlier. 
+To modify or review data analysis, use the Job_Data_Analysis.ipynb file. Ensure the kernel selected is the same as the conda environment created earlier. 
 
 ## Reflection
 The webscraping and data cleaning components of the project took significantly longers than the data collection and analysis of it. As someone with no experience with creating webscrapers or webcrawlers prior to this project, there were a lot of unexpected obstacles that came up in designing it which would create errors. A couple examples of these included:
-- Email popup window would appear that would prevent webcrawler from parsing page or moving moving to next page
+- Email popup window would appear that would prevent webcrawler from parsing page or moving to next page
 - Webpage changed from initial design so next page arrow would not load if the page was not scrolled down far enough
 
 Issues like these which one would likely not even consider going into it were littered throughout and testing, troubleshooting, and finding solutions to these unexpected obstacles ended up being very time consuming.
