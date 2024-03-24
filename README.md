@@ -45,7 +45,7 @@ To use the webscraper to pull more data, run the Job_Web_Scraper.py file from th
 
 If a clean copy of the data is preferred, delete the JobData.db file and run the Initialize_SQLite_Database.py file to generate empty tables. 
 
-
+To modify or review data analysis, use the Job_Data_Analysis.ipynb file. Ensure the kernel selected is the same as the conda enviornment created earlier. 
 
 
 ## Other
