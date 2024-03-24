@@ -40,7 +40,7 @@ A conda environment was used to build the project. Conversion to pip install cre
 To create a conda environment, install Miniconda (no pre-packages installed) or Anaconda (full version). 
 Links to install Miniconda (https://docs.anaconda.com/free/miniconda/index.html) or Anaconda (https://www.anaconda.com/download).
 
-In Anaconda prompt, install and activate the conda environment with the provided .yml file. Add path locations as necessary:
+In Anaconda prompt, install and activate the conda environment with the provided webscrape_analysis_project.yml file. Add path locations as necessary:
 - Open Anaconda prompt
 - Run conda env create -f webscrape_analysis_project.yml
 - Run conda activate webscrape_analysis_project
@@ -62,5 +62,10 @@ The webscraping and data cleaning components of the project took significantly l
 Issues like these which one would likely not even consider going into it were littered throughout and testing, troubleshooting, and finding solutions to these unexpected obstacles ended up being very time consuming.
 
 ## Improvement Opportunities
+There are a lot of ways that the program can be improved to provide more useful information in future iterations. 
 
+- Modify program to search in different job boards
+- Modify program to allow for searching in different countries
+- Use ArcGis to create geo-visual plot of various job features
+- Collect data periodically and show historical trend analysis once a long enough time period is collected
 
