@@ -34,7 +34,8 @@ In Anaconda prompt, install and activate the conda environment with the provided
 conda env create -f webscrape_analysis_project.yml
 conda activate webscrape_analysis_project
 
-
+###Usage
+To use the webscraper to pull more data, run the Job_Web_Scraper.py file from the terminal or an IDE. To search for different keywords than the default, open the .py file and update the list parameter in the last line as required. Save changes then run. 
 
 
 ## Other
