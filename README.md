@@ -37,9 +37,9 @@ To create a conda environment, install Miniconda (no pre-packages installed) or 
 Links to install Miniconda (https://docs.anaconda.com/free/miniconda/index.html) or Anaconda (https://www.anaconda.com/download).
 
 In Anaconda prompt, install and activate the conda environment with the provided .yml file. Add path locations as necessary:
- -Open Anaconda prompt
- -conda env create -f webscrape_analysis_project.yml
- -conda activate webscrape_analysis_project
+- Open Anaconda prompt
+- conda env create -f webscrape_analysis_project.yml
+- conda activate webscrape_analysis_project
 
 The webscraper uses Firefox for the webcrawling. You will need to install the Firefox driver for this to work. This project uses version 0.34.0. Installation found here: https://github.com/mozilla/geckodriver/releases
 
