@@ -55,6 +55,12 @@ If a clean copy of the data is preferred, delete the JobData.db file and run the
 To modify or review data analysis, use the Job_Data_Analysis.ipynb file. Ensure the kernel selected is the same as the conda enviornment created earlier. 
 
 ## Reflection
+The webscraping and data cleaning components of the project took significantly longers than the data collection and analysis of it. As someone with no experience with creating webscrapers or webcrawlers prior to this project, there were a lot of unexpected obstacles that came up in designing it which would create errors. A couple examples of these included:
+- Email popup window would appear that would prevent webcrawler from parsing page or moving moving to next page
+- Webpage changed from initial design so next page arrow would not load if the page was not scrolled down far enough
+Issues like those which one would likely not even consider going into it were littered throughout and testing, troubleshooting, and finding solutions to these unexpected obstacles ended up being very time consuming.
+
+
 
 ## Improvement Opportunities
 
