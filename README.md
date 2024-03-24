@@ -8,6 +8,10 @@ The purpose of this project was to create a web scraper that could pull and pars
 
 [Getting Started](#getting-started)
 
+[Reflection](#reflection)
+
+[Improvement Opportunities](#improvement-opportunities)
+
 ## Project Details
 
 ### Goal
@@ -47,5 +51,7 @@ The webscraper uses Firefox for the webcrawling. You will need to install the Fi
 To use the webscraper to pull more data, run the Job_Web_Scraper.py file from the terminal or an IDE. To search for different keywords than the default, open the .py file and update the list parameter in the last line as required. The defaults are ['data analyst', 'data scientist', 'business intelligence', 'database administrator']. Save changes then run.
 
 If a clean copy of the data is preferred, delete the JobData.db file and run the Initialize_SQLite_Database.py file to generate empty tables. 
+
+##Reflection
 
 To modify or review data analysis, use the Job_Data_Analysis.ipynb file. Ensure the kernel selected is the same as the conda enviornment created earlier. 
